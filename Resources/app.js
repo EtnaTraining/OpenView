@@ -2,23 +2,17 @@ var win = Ti.UI.createWindow({
 	backgroundColor : "white"
 });
 
-
-
-
-
 var btn = Ti.UI.createButton({
 	title : "Apri View",
-	//bottom : 40,
 	height : 60,
 	width : 180,
 	bottom:40
 });
 
-
 win.add(btn);
 
 var view = Ti.UI.createView({
-	backgroundColor : "blue",
+	backgroundColor : "green",
 	width : "90%",
 	height : "90%",
 	borderRadius : 5,
