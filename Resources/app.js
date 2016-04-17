@@ -4,8 +4,8 @@ var win = Ti.UI.createWindow({
 
 var btn = Ti.UI.createButton({
 	title : "Apri View",
-	height : 60,
-	width : 180,
+	height : Ti.UI.SIZE,
+	width : Ti.UI.SIZE,
 	bottom:40
 });
 
@@ -23,8 +23,8 @@ var view = Ti.UI.createView({
 
 var btnClose = Ti.UI.createButton({
 	title : "Chiudi View",
-	height : 60,
-	width : 180
+	height : Ti.UI.SIZE,
+	width : Ti.UI.SIZE
 });
 
 view.add(btnClose);
